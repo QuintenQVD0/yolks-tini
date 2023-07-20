@@ -16,7 +16,6 @@ jobs:
       fail-fast: false
       matrix:
         tag:
-          - parkertron
           - red
           - sinusbot
           - bastion
