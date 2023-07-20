@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * 1"
   push:
     branches:
-      - master
+      - main
     paths:
       - bot/**
 jobs:
@@ -25,7 +25,7 @@ jobs:
         with:
           buildkitd-flags: --debug
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@master
+        uses: docker/setup-qemu-action@main
         with:
           platforms: arm64,amd64
       - name: Cache Docker layers
