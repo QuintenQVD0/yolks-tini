@@ -36,4 +36,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            quintenqvd/pterodactyl_tini:games_${{ matrix.distro }}
+            quintenqvd/pterodactyl_tini:games_${{ matrix.game }}
