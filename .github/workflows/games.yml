@@ -19,6 +19,7 @@ jobs:
           - altv
           - samp
           - source
+          - dayz
           
     steps:
       - uses: actions/checkout@v3
